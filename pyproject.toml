@@ -1,0 +1,22 @@
+[project]
+name = "windowmanager"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "", email = ""},
+]
+dependencies = [
+    "pygetwindow>=0.0.9",
+    "pywinauto>=0.6.8",
+    "rich>=13.8.1",
+    "pyvda>=0.4.3",
+    "pysdl2>=0.9.16",
+    "pyinstaller>=6.10.0",
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
